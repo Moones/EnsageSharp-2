@@ -4,12 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ensage.SandboxEvasion_by_axiieflex
-{
-    class Program
+namespace axiieflex.ensage2 {
+
+    class SandboxEvasion
     {
-        static void Main(string[] args)
+        class System
         {
+            class IO
+            {
+                class File
+                {
+
+                }
+            }
         }
     }
+
 }
+

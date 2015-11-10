@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensage UI Bundle Extension 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file2cs by axiieflex", "file2cs by axiieflex\file2cs by axiieflex.csproj", "{1C654267-CD54-4847-BB10-C4602EED5365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensage.SandboxEvasion by axiieflex", "Ensage.SandboxEvasion by axiieflex\Ensage.SandboxEvasion by axiieflex.csproj", "{68182D7F-FDC4-4E04-97E3-78681792B9B7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{1C654267-CD54-4847-BB10-C4602EED5365}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C654267-CD54-4847-BB10-C4602EED5365}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C654267-CD54-4847-BB10-C4602EED5365}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68182D7F-FDC4-4E04-97E3-78681792B9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68182D7F-FDC4-4E04-97E3-78681792B9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68182D7F-FDC4-4E04-97E3-78681792B9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68182D7F-FDC4-4E04-97E3-78681792B9B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
