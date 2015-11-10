@@ -7,8 +7,8 @@
     <ProjectGuid>{4689216E-42B4-449F-AB04-74E8EF1488C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Developer_Synced_Console_by_axiieflex</RootNamespace>
-    <AssemblyName>Developer Synced Console by axiieflex</AssemblyName>
+    <RootNamespace>axiieflex.ensage2</RootNamespace>
+    <AssemblyName>axiieflex.ensage.DeveloperSyncedConsole</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,17 +32,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ensage">
+      <HintPath>..\..\..\..\Downloads\LeagueSharp\System\Ensage.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="winmgr.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

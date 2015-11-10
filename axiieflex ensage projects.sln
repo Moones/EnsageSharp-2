@@ -5,7 +5,9 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Synced Console by axiieflex", "Developer Synced Console by axiieflex\Developer Synced Console by axiieflex.csproj", "{4689216E-42B4-449F-AB04-74E8EF1488C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensage UI Bundle Extension", "Ensage UI Bundle Extension\Ensage UI Bundle Extension.csproj", "{9D6CC5C3-CED6-4B49-B600-D3E1D4487611}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensage UI Bundle Extension by axiieflex", "Ensage UI Bundle Extension\Ensage UI Bundle Extension by axiieflex.csproj", "{9D6CC5C3-CED6-4B49-B600-D3E1D4487611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file2cs by axiieflex", "file2cs by axiieflex\file2cs by axiieflex.csproj", "{1C654267-CD54-4847-BB10-C4602EED5365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9D6CC5C3-CED6-4B49-B600-D3E1D4487611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D6CC5C3-CED6-4B49-B600-D3E1D4487611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D6CC5C3-CED6-4B49-B600-D3E1D4487611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C654267-CD54-4847-BB10-C4602EED5365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C654267-CD54-4847-BB10-C4602EED5365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C654267-CD54-4847-BB10-C4602EED5365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C654267-CD54-4847-BB10-C4602EED5365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
