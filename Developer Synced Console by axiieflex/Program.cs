@@ -161,15 +161,18 @@ namespace axiieflex.ensage2.DeveloperSyncedConsole
         private static void Game_OnWndProc(WndEventArgs args)
         {
 
+            var _args = args;
+
             const uint WM_CHAR = 0x102;
 
             // если что-то пишем что игнорим
             if (Ensage.Game.IsChatOpen)
                 return;
 
+
             // да да, я хз почему, но работает только WM_CHAR, WM_KEYDOWN+WM_KEYUP не робит, ну и нахуй :D
             // TODO: добавить чтения биндов из config.cfg
-            if ((args.Msg == WM_CHAR) && (args.WParam == '\\'))
+            if ((_args.Msg == WM_CHAR) && (_args.WParam == '\\'))
             {
                 InvertConsoleWindow();
             }

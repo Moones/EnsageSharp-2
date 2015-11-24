@@ -15,7 +15,7 @@ namespace axiieflex.ensage2.EnsageUI {
         
         static void Main(string[] args)
         {
-            System.IO.File.Exists
+            //System.IO.File.Exists
         }
     }
 }
