@@ -20,7 +20,7 @@ namespace axiieflex.ensage2.abuse.tranquilBoots
         {
             
             // кнопка для срабатывания
-            Menu.AddItem(new MenuItem("hotkey", "HotKey").SetValue(new KeyBind('P', KeyBindType.Press)));
+            Menu.AddItem(new MenuItem("hotkey", "HotKey").SetValue(new KeyBind('P', KeyBindType.Toggle)));
 
             // добавляем меню
             Menu.AddToMainMenu();
